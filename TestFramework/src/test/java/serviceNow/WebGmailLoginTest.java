@@ -7,14 +7,14 @@ import businessLogicWeb.GmailLogin;
 
 public class WebGmailLoginTest {
 	
-	
+	GmailLogin login = new GmailLogin();
+
 	/*
 	 * Author: Omkar Deshpande
 	 * Purpose: To verify gmail login 
 	 */
 	@Test
 	public void verifyGmailLogin() {
-		GmailLogin login = new GmailLogin();
 		login.gmailLogin();
 		
 	}
